@@ -27,7 +27,7 @@ void deQueue(ListaQueue *lista) //o team queue eu nao removo
 
 
 
-void enQueue(ListaQueue *lista, ListaTimes *times, int valor, int numerodeTimes)
+void enQueue(ListaQueue *lista,ListaTimes *times, int valor, int numerodeTimes)
 {
     
 
@@ -157,7 +157,7 @@ int main()
                 else if (strcmp(comando, "ENQUEUE")== 0) //adiciona na lista
                 {
                     scanf("%d", &elementoN);
-                    enQueue(&lista, &times, elementoN, numerodeTimes);
+                    enQueue(&lista, times, elementoN, numerodeTimes);
                     
                 }
 
